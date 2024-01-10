@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-10T14:06:05 IST" name="Default suite" finished-at="2024-01-10T14:06:15 IST" duration-ms="10287">
+    <groups>
+    </groups>
+    <test started-at="2024-01-10T14:06:05 IST" name="Default test" finished-at="2024-01-10T14:06:15 IST" duration-ms="10287">
+      <class name="serAndDserMock.Create_User">
+        <test-method signature="createUser()[pri:0, instance:serAndDserMock.Create_User@242b836]" started-at="2024-01-10T14:06:05 IST" name="createUser" finished-at="2024-01-10T14:06:13 IST" duration-ms="7941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="fetchuser()[pri:0, instance:serAndDserMock.Create_User@242b836]" started-at="2024-01-10T14:06:13 IST" name="fetchuser" finished-at="2024-01-10T14:06:15 IST" duration-ms="2236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchuser -->
+      </class> <!-- serAndDserMock.Create_User -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
