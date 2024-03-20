@@ -24,9 +24,10 @@ public class DelayUserSerAndDes
 				.response()
 				.as(DelayUser.class);
 		List<DelayData> allgetdata =delayResp.getData();
-		String value = allgetdata.get(3).getFirst_name();
-		System.out.println(value);  // eve 
+		String name = allgetdata.get(3).getFirst_name();
+		System.out.println(name);  // eve 
 		System.out.println(allgetdata.get(3) .getEmail());	  
+		
 
 
 

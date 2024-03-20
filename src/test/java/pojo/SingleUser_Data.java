@@ -5,6 +5,7 @@ public class SingleUser_Data
 	int id;
 	String 	email;
 	String first_name;
+	
 	public int getId() {
 		return id;
 	}
